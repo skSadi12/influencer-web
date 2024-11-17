@@ -65,3 +65,16 @@ nav ul{
         text-align: center;
     }
 }
+/* sponsored section start */
+.sponsored-container{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    border: 1px solid rgb(214, 214, 214);
+    padding: 20px;
+}
+.sponsored-container img{
+    width: 10%;
+}
