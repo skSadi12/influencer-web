@@ -20,6 +20,7 @@ nav ul{
     display: flex;
     justify-content: space-between;
     margin-top: 40px;
+    align-items: center;
 }
 .header-text-img h1{
     font-size: 52px;
@@ -88,4 +89,42 @@ nav ul{
         margin-bottom: 50px;
         padding: 5px;
     }
+}
+/* Popular-Collection section start */
+.Popular-Collection-container{
+    margin-right: 110px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.Popular-Collection-container h2{
+    font-size:28px ;
+}
+.Popular-Collection-container h3{
+    font-size:24px;
+}
+.Popular-Collection-container h5{
+    font-size:24px;
+    text-align: right;
+}
+.Popular-Collection-container p{
+    font-size:14px ;
+    
+    color: #787885;
+}
+
+.Popular-Collection-img{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+
+}
+.Popular-Collection-img img{
+    width: 100%;
+}
+.Popular-img{
+    border: 1px solid rgb(255, 251, 251);
+    padding: 10px;
+    box-shadow: 10px 10px 10px 10px rgb(195, 195, 195);
+    border-radius: 5px;
 }
