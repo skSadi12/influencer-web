@@ -47,6 +47,7 @@ nav ul{
     header{
         margin-right: 1px;
         margin-left: 1px;
+        margin-bottom: 50px;
     }
     nav{
         flex-direction: column;
@@ -77,4 +78,14 @@ nav ul{
 }
 .sponsored-container img{
     width: 10%;
+}
+/* sponsored section responsive start */
+@media screen and (max-width:576px){
+    .sponsored-container{
+        justify-content: space-between;
+        margin-right: 1px;
+        margin-left: 1px;
+        margin-bottom: 50px;
+        padding: 5px;
+    }
 }
