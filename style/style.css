@@ -1,6 +1,7 @@
 header{
     margin-right: 100px;
     margin-left: 100px;
+    margin-bottom: 100px;
 }
 nav{
     display: flex;
@@ -30,6 +31,7 @@ nav ul{
     width: 200px;
     height: 44px;
     background-color: #E02C6D;
+    border-radius: 30px;
     
 }
 .button a{
@@ -38,4 +40,28 @@ nav ul{
 .header-img{
     background-image: url(/images/Circle\ design.svg);
     background-repeat: no-repeat;
+}
+
+/* header responsive */
+@media screen and (max-width:576px) {
+    header{
+        margin-right: 1px;
+        margin-left: 1px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .header-text-img{
+        flex-direction: column-reverse;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .header-text-img img{
+        width: 100%;
+    }
+    .Influencerp{
+        font-size: 35px;
+        color: #E02C6D ;
+        text-align: center;
+    }
 }
