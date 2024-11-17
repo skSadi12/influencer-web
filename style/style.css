@@ -128,3 +128,34 @@ nav ul{
     box-shadow: 10px 10px 10px 10px rgb(195, 195, 195);
     border-radius: 5px;
 }
+/* Popular-Collection section responsive start*/
+@media screen and (max-width:576px){
+    .Popular-Collection-container{
+        margin-right: 1px;
+        margin-left: 1px;
+        margin-bottom: 50px;
+    }
+    .Popular-Collection-img{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+    }
+}
+/* Featured-container start */
+.Featured-container{
+    display: flex;
+    gap: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.Featured-container h2{
+    font-size: 38px;
+}
+.Featured-container img{
+    width: 100%;
+}
+.Featured-text{
+    display: grid;
+    gap: 50px;
+}
