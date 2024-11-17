@@ -155,7 +155,27 @@ nav ul{
 .Featured-container img{
     width: 100%;
 }
-.Featured-text{
+/* .Featured-text{
     display: grid;
     gap: 50px;
+} */
+/* Featured-container responsive */
+@media screen and (max-width:576px){
+    .Featured-container{
+        flex-direction: column-reverse;
+        gap: 30px;
+        margin-right: 1px;
+        margin-left: 1px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+}
+
+
+/* Influencer-products */
+.Influencer-products{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
 }
